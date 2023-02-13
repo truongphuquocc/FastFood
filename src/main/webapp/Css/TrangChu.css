@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif !important;
+}
+
+button, input, [tabindex] {
+	outline: none;
+	border: none;
+	border-color: #ff5b6a;
+}
+
+.input-group>.form-control {
+	border-color: #ff5b6a;
+}
+
+.small {
+	min-width: 100px;
+	padding: 8px 20px;
+}
+
+.form-control:focus {
+	box-shadow: none;
+	border-color: #CF111a;
+}
+
+.btn, btn-primary {
+	border: none;
+}
+
+.btn:focus, .btn-primary:focus {
+	box-shadow: none !important;
+}
+
+/* .btn:hover {
+	background-color: #ff5b6a;
+}
+ */
+a.text-body:hover {
+	text-decoration: none;
+	color: #CF111A !important;
+	font-weight: bold;
+}
+
+.navbar-brand:hover {
+	color: #ff5b6a;
+}
+
+
+/*  */
+.btn {
+	margin: 0px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	font-size: 16px;
+	background-color: #ff5b6a;
+}
+
+.navbar-custom {
+	color: rgb(20, 47, 67);
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.text-auth:hover, .navbar-custom:hover {
+	color: rgb(255, 91, 106);
+}
+
+.btn-custom {
+	background-color: #ff5b6a;
+}
+
+.price {
+	color: #ff5b6a;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 100%;
+}
+
+.card-title {
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	height: 42px;
+	overflow: hidden;
+	padding-right: 30px;
+}
+
+.text-auth {
+	color: rgb(20, 47, 67);
+}

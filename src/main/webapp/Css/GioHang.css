@@ -1,0 +1,401 @@
+@charset "ISO-8859-1";
+
+
+
+
+
+
+.main .container {
+    padding-top: 35px;
+    padding-bottom: 60px;
+    min-height: 473px;
+}
+
+.main .head-title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    zoom: 1;
+    margin-bottom: 25px;
+}
+
+
+.main .head-title:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.main .head-title .add-more {
+    display: block;
+    float: right;
+    font-weight: 500;
+    text-transform: none;
+    font-size: 16px;
+    color: #ff5b6a;
+    text-decoration: none;
+}
+
+.cart-content {
+    width: 69%;
+    float: left;
+    padding-right: 24px;
+}
+
+.cart-list {
+    margin-bottom: 30px;
+}
+
+
+.cart-list .field-info h3 a:hover, .cart-list .field-info h3 a:focus {
+    color: #ff5b6a;
+}
+
+.cart-list .cart-row {
+    display: block;
+    zoom: 1;
+    margin-bottom: 15px;
+    position: relative;
+    padding-right: 50px;
+    border-bottom: 1px solid #ffeae3;
+    padding-bottom: 15px;
+}
+
+.cart-list .btn-delete {
+    width: 36px;
+    height: 36px;
+    display: block;
+    background: url(https://www.lotteria.vn/grs-static/images/icon-delete.svg) no-repeat;
+    background-size: 32px auto;
+    cursor: pointer;
+    position: absolute;
+    border: 0;
+    z-index: 1;
+    right: 0;
+    top: 29px;
+}
+
+.cart-list .field-img {
+    width: 23%;
+    float: left;
+    padding-right: 35px;
+}
+
+.cart-list .field-img img {
+    display: block;
+}
+
+.cart-list .field-info {
+    width: 57%;
+    float: left;
+    padding-right: 20px;
+    padding-top: 15px;
+    background-color: transparent;
+}
+
+
+.cart-list .field-info h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.cart-list .field-info h3 a {
+    color: #142f43;
+}
+
+.cart-list .qty {
+    float: left;
+    width: 20%;
+    padding-top: 30px;
+}
+
+.qty .q-inner {
+    display: inline-block;
+}
+
+.qty button {
+    width: 44px;
+    height: 44px;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff969a;
+    float: left;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.qty.sm-type button, .qty.sm-type .number {
+    width: 32px;
+    height: 32px;
+}
+
+.cart-list .cart-row:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.qty.sm-type .number {
+    padding-top: 5px;
+}
+
+.qty .number {
+    background-color: #ffeae3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    border: 0;
+    float: left;
+    margin: 0 5px;
+    font-size: 16px;
+    padding: 10px 0 0 0;
+    display: block;
+}
+
+.qty .number {
+    background-color: #ffeae3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border: 0;
+    float: left;
+    margin: 0 5px;
+    font-size: 16px;
+    padding: 10px 0 0 0;
+    display: block;
+}
+
+.order-notes {
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 15%);
+    -webkit-box-shadow: 1px 1px 5px rgb(0 0 0 / 15%);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.order-notes p {
+    margin-bottom: 7px;
+}
+
+b, strong {
+    font-weight: bolder;
+}
+
+.order-notes .form-group {
+    margin-bottom: 0;
+}
+
+.order-notes .form-group .form-control {
+    border: 0;
+    border-bottom: 1px solid #ff9ea2;
+    padding-left: 0;
+    padding-right: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+/* Cart right */
+
+.cart-right {
+    width: 31%;
+    float: right;
+}
+
+.cart-right .box-border {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.box-border {
+    background: #fff;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 15%);
+    -webkit-box-shadow: 1px 1px 5px rgb(0 0 0 / 15%);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding: 24px;
+    margin-bottom: 30px;
+}
+
+.cart-right .delivery-to .btn-change-add {
+    float: right;
+    width: 24px;
+    height: 24px;
+    margin-top: 17px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    background: url(https://www.lotteria.vn/grs-static/images/icon-edit.svg) 0 0 no-repeat;
+}
+.cart-right .delivery-to .btn-change-add span {
+    display: none;
+}
+
+.cart-right .delivery-to .lbl {
+    display: block;
+    margin-bottom: 0;
+}
+
+.cart-right .delivery-to .add {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #142f43;
+}
+
+.cart-right .delivery-to {
+    position: relative;
+    border-bottom: 1px dashed #6b6c6c;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #6b6c6c;
+    display: block;
+    zoom: 1;
+}
+
+.cart-right .note-time {
+    text-align: center;
+    font-size: 14px;
+    color: #6b6c6c;
+}
+
+.cart-right .delivery-to:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.cart-right .note-time {
+    text-align: center;
+    font-size: 14px;
+    color: #6b6c6c;
+}
+
+.cart-right .sub-total, .cart-right .shipping-fee, .cart-right .total {
+    display: block;
+    zoom: 1;
+    margin-bottom: 3px;
+}
+
+.cart-right .sub-total .lbl, .cart-right .shipping-fee .lbl, .cart-right .total .lbl {
+    width: 50%;
+    float: left;
+}
+
+.cart-right .sub-total .price, .cart-right .shipping-fee .price, .cart-right .total .price {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.cart-right .sub-total:after, .cart-right .shipping-fee:after, .cart-right .total:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.cart-right .shipping-fee {
+    display: block;
+    zoom: 1;
+    margin-bottom: 3px;
+}
+
+.cart-right .sub-total .lbl, .cart-right .shipping-fee .lbl, .cart-right .total .lbl {
+    width: 50%;
+    float: left;
+}
+
+.cart-right .shipping-fee .price {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.cart-right .sub-total:after, .cart-right .shipping-fee:after, .cart-right .total:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.cart-right .total {
+    border-top: 1px dashed #ff9ea2;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-weight: 700;
+    display: block;
+    zoom: 1;
+    margin-bottom: 3px;
+}
+
+.cart-right .total .lbl {
+    width: 50%;
+    float: left;
+}
+
+.cart-right .total .price {
+    color: #ff5b6a;
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.cart-right .total:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.cart-right .btn-payment {
+    margin: 10px -15px -15px;
+}
+
+.cart-right .btn-payment button {
+    color: #fff;
+    background-color: #ff5b6a;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 5px;
+    -webkit-border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: block;
+    width: 100%;
+    border: 0;
+    height: 63px;
+}
+
+
